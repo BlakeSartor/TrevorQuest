@@ -1,22 +1,18 @@
 fileFormatVersion: 2
-guid: e2fb097b185b2dd46a1f3c4c20972e19
+guid: 84afbea7fb28c354eb740240d3a7b3b5
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Cylinder
-    100002: Sphere.001
-    100004: //RootNode
-    400000: Cylinder
-    400002: Sphere.001
-    400004: //RootNode
-    2100000: treetop
-    2100002: Material.001
-    2300000: Cylinder
-    2300002: Sphere.001
-    3300000: Cylinder
-    3300002: Sphere.001
-    4300000: Sphere.001
-    4300002: Cylinder
+    100000: //RootNode
+    400000: //RootNode
+    2100000: Material.001
+    2100002: Material.002
+    2100004: Material.003
+    2100006: Material.004
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Plane
+    6400000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -50,7 +46,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
