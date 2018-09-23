@@ -112,7 +112,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 1aaa6ba44183d9347807188bfe61100c, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 6632d6c9313cedf4d8c4624e415b328c, type: 2}
 --- !u!1001 &35002878
 Prefab:
   m_ObjectHideFlags: 0
@@ -1377,7 +1377,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 84afbea7fb28c354eb740240d3a7b3b5, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6400000, guid: 84afbea7fb28c354eb740240d3a7b3b5, type: 3}
       propertyPath: m_Convex
