@@ -4,6 +4,9 @@ using UnityEngine;
 
 [RequireComponent(typeof(PlayerEngine))]
 public class PlayerController : MonoBehaviour {
+
+    public Interactable target;
+
     Camera cam;
     PlayerEngine engine;
 
@@ -26,7 +29,35 @@ public class PlayerController : MonoBehaviour {
                 engine.MoveToPoint(hit.point);
                 Debug.Log("We hit" + hit.collider.name + " " + hit.point);
                 // stop focusing objects
+                ClearTarget();
+
+            }
+        }
+        if (Input.GetMouseButton(1))
+        {
+            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit))
+            {
+                Interactable intertacble = hit.collider.GetComponent<Interactable>();
+                if (intertacble != null)
+                {
+                    SetTarget(intertacble);
+                } 
             }
         }
 	}
+
+    void SetTarget(Interactable newTarget)
+    {
+        target = newTarget;
+        engine.FollowTarget(newTarget);
+    }
+
+    void ClearTarget()
+    {
+        target = null;
+        engine.StopFollowingTarget();
+    }
 }
