@@ -51,12 +51,21 @@ public class PlayerController : MonoBehaviour {
 
     void SetTarget(Interactable newTarget)
     {
-        target = newTarget;
-        engine.FollowTarget(newTarget);
+        if (newTarget != target)
+        {
+           if (target != null) 
+                target.OnDeTarget();
+
+            target = newTarget;
+            engine.FollowTarget(newTarget);
+        }
+        newTarget.OnTarget(transform);
     }
 
     void ClearTarget()
     {
+        if (target != null)
+            target.OnDeTarget();
         target = null;
         engine.StopFollowingTarget();
     }
