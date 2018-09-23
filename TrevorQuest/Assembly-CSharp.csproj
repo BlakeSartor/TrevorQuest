@@ -61,7 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PlayerEngine.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/blake/Desktop/TrevorQuest/TrevorQuest/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
