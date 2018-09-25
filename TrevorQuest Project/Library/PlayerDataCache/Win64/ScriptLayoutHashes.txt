@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/blake/Desktop/TrevorQuest/TrevorQuest/build/TrevorQuest.exe
+C:/Users/blake/Desktop/TrevorQuest/TrevorQuest Project/build/TrevorQuest.exe
 SceneListBegin?
 Assets/Scenes/main.unity
 SceneListEnd?
