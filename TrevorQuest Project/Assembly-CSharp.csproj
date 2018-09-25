@@ -149,6 +149,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Shaders\Skybox Cubemap Extended.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
