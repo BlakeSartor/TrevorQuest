@@ -40,6 +40,13 @@ ModelImporter:
     100068: Leggings
     100070: Shirt
     100072: shoe
+    100074: Armor_Arms
+    100076: Armor_BP
+    100078: Armor_legs
+    100080: Armor_Shoulders
+    100082: body_001
+    100084: Shirt_001
+    100086: underArmor_Arms
     400000: Armature
     400002: //RootNode
     400004: Chest
@@ -77,18 +84,37 @@ ModelImporter:
     400068: Leggings
     400070: Shirt
     400072: shoe
+    400074: Armor_Arms
+    400076: Armor_BP
+    400078: Armor_legs
+    400080: Armor_Shoulders
+    400082: body_001
+    400084: Shirt_001
+    400086: underArmor_Arms
     2100000: unnamed
     2100002: Material
     2100004: Shoe
     2100006: shirt
     2100008: pants
     2100010: body
+    2100012: kneecap
+    2100014: Armor
+    2100016: underArmor
+    2300000: Shirt_001
+    3300000: Shirt_001
     4300000: Cube
     4300002: hair
     4300004: shoe
     4300006: Shirt
     4300008: Leggings
     4300010: body
+    4300012: Armor_Shoulders
+    4300014: Armor_Arms
+    4300016: underArmor_Arms
+    4300018: Armor_BP
+    4300020: Shirt_001
+    4300022: Armor_legs
+    4300024: body_001
     7400000: Default Take
     7400002: Idle
     7400004: Run
@@ -102,6 +128,12 @@ ModelImporter:
     13700006: Leggings
     13700008: Shirt
     13700010: shoe
+    13700012: Armor_Arms
+    13700014: Armor_BP
+    13700016: Armor_legs
+    13700018: Armor_Shoulders
+    13700020: body_001
+    13700022: underArmor_Arms
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -118,22 +150,7 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Default Take' has import animation warnings
-      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'Chest' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\nClip 'Run' has import
-      animation warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'Chest' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\nClip 'WalkFinal'
-      has import animation warnings that might lower retargeting quality:\nNote: Activate
-      translation DOF on avatar to improve retargeting quality.\n\t'Chest' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'WalkFinal_000' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'WalkFinal_003' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -146,34 +163,6 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations:
-    - serializedVersion: 16
-      name: Default Take
-      takeName: Default Take
-      firstFrame: 0
-      lastFrame: 98
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Idle
       takeName: Idle
@@ -242,62 +231,6 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: WalkFinal_000
-      takeName: WalkFinal_000
-      firstFrame: 0
-      lastFrame: 24
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: WalkFinal_003
-      takeName: WalkFinal_003
-      firstFrame: 0
-      lastFrame: 24
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
