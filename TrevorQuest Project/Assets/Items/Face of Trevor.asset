@@ -8,9 +8,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc525b52badfafa459ddf4ae28942956, type: 3}
+  m_Script: {fileID: 11500000, guid: e97e2004028067c45a02e0a0c5544104, type: 3}
   m_Name: Face of Trevor
   m_EditorClassIdentifier: 
   name: Face of Trevor
   icon: {fileID: 21300000, guid: 04589a659e25cd44498f4b3fe6261624, type: 3}
   isDefaultItem: 0
+  equipSlot: 0
+  mesh: {fileID: 137103602386530982, guid: ce2a0479a95b0cf4fa14e03fcea9b277, type: 2}
+  coveredMeshRegions: 
+  armorModifier: 1
+  damageModifier: 0

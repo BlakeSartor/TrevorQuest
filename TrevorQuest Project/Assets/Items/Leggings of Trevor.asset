@@ -8,9 +8,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc525b52badfafa459ddf4ae28942956, type: 3}
+  m_Script: {fileID: 11500000, guid: e97e2004028067c45a02e0a0c5544104, type: 3}
   m_Name: Leggings of Trevor
   m_EditorClassIdentifier: 
-  name: Leggings of Trevor
+  name: Leggins of Trevor
   icon: {fileID: 21300000, guid: 1caaf2cfd04985b48b69c3cec6d5e440, type: 3}
   isDefaultItem: 0
+  equipSlot: 2
+  mesh: {fileID: 137514695601827868, guid: a1c33e294e35f7e498730c7563953206, type: 2}
+  coveredMeshRegions: 00000000
+  armorModifier: 3
+  damageModifier: 0

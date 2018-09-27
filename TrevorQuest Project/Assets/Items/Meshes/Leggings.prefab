@@ -9,17 +9,17 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1394756371417476}
+  m_RootGameObject: {fileID: 1236631431280752}
   m_IsPrefabAsset: 1
---- !u!1 &1394756371417476
+--- !u!1 &1236631431280752
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4734227063136972}
-  - component: {fileID: 137686243490605706}
+  - component: {fileID: 4926014230259272}
+  - component: {fileID: 137968276517285332}
   m_Layer: 0
   m_Name: Leggings
   m_TagString: Untagged
@@ -27,12 +27,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4734227063136972
+--- !u!4 &4926014230259272
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1394756371417476}
+  m_GameObject: {fileID: 1236631431280752}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: -0.0033006982}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40,12 +40,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &137686243490605706
+--- !u!137 &137968276517285332
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1394756371417476}
+  m_GameObject: {fileID: 1236631431280752}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -55,7 +55,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: f430ca85766de484eb491d0ddbcd71a7, type: 2}
+  - {fileID: 2100000, guid: 6d91c97c9ed1fe44d9ec13b929bf1022, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -79,7 +79,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300010, guid: c06b36b396d893b468b670df409071b0, type: 3}
+  m_Mesh: {fileID: 4300012, guid: c06b36b396d893b468b670df409071b0, type: 3}
   m_Bones:
   - {fileID: 0}
   - {fileID: 0}

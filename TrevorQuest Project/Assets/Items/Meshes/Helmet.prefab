@@ -9,17 +9,17 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1906875395685834}
+  m_RootGameObject: {fileID: 1037111167881578}
   m_IsPrefabAsset: 1
---- !u!1 &1906875395685834
+--- !u!1 &1037111167881578
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4351596562312704}
-  - component: {fileID: 137372904165749192}
+  - component: {fileID: 4393414860693032}
+  - component: {fileID: 137110249228436796}
   m_Layer: 0
   m_Name: Helmet
   m_TagString: Untagged
@@ -27,12 +27,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4351596562312704
+--- !u!4 &4393414860693032
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1906875395685834}
+  m_GameObject: {fileID: 1037111167881578}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.0000015054306, y: -0.0029098322, z: 1.8163899}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40,12 +40,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &137372904165749192
+--- !u!137 &137110249228436796
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1906875395685834}
+  m_GameObject: {fileID: 1037111167881578}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -55,8 +55,8 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 7d8841d7f98dd1f4c862a56e300b21ec, type: 2}
-  - {fileID: 2100000, guid: abf846caef24ae549a3ce3c4a802c2b7, type: 2}
+  - {fileID: 2100000, guid: 4d7ba3f230d0ff84db6b8965bff2888d, type: 2}
+  - {fileID: 2100000, guid: f786e55ff6c1c6f41900e8f3dcd0137a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -80,7 +80,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300014, guid: c06b36b396d893b468b670df409071b0, type: 3}
+  m_Mesh: {fileID: 4300016, guid: c06b36b396d893b468b670df409071b0, type: 3}
   m_Bones:
   - {fileID: 0}
   - {fileID: 0}
