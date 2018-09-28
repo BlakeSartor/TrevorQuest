@@ -9,17 +9,17 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1965133523016810}
+  m_RootGameObject: {fileID: 1237155219423530}
   m_IsPrefabAsset: 1
---- !u!1 &1965133523016810
+--- !u!1 &1237155219423530
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4802375730357922}
-  - component: {fileID: 137769695199190146}
+  - component: {fileID: 4569572324311580}
+  - component: {fileID: 137620801753586830}
   m_Layer: 0
   m_Name: Shirt
   m_TagString: Untagged
@@ -27,12 +27,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4802375730357922
+--- !u!4 &4569572324311580
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1965133523016810}
+  m_GameObject: {fileID: 1237155219423530}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: -0.0033006982}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40,12 +40,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &137769695199190146
+--- !u!137 &137620801753586830
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1965133523016810}
+  m_GameObject: {fileID: 1237155219423530}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -79,7 +79,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300010, guid: c06b36b396d893b468b670df409071b0, type: 3}
+  m_Mesh: {fileID: 4300016, guid: c06b36b396d893b468b670df409071b0, type: 3}
   m_Bones:
   - {fileID: 0}
   - {fileID: 0}

@@ -28,21 +28,24 @@ ModelImporter:
     100044: Lower_Leg_L
     100046: Lower_Leg_R
     100048: Neck
-    100050: Shirt
-    100052: shoe
-    100054: Shoulder_L
-    100056: Shoulder_R
-    100058: Spine
-    100060: Thumb01_L
-    100062: Thumb01_R
-    100064: Thumb02_L
-    100066: Thumb02_R
-    100068: Toes_L
-    100070: Toes_R
-    100072: Upper_Arm_L
-    100074: Upper_Arm_R
-    100076: Upper_Leg_L
-    100078: Upper_Leg_R
+    100050: Plane
+    100052: Shield
+    100054: Shirt
+    100056: shoe
+    100058: Shoulder_L
+    100060: Shoulder_R
+    100062: Spine
+    100064: Sword
+    100066: Thumb01_L
+    100068: Thumb01_R
+    100070: Thumb02_L
+    100072: Thumb02_R
+    100074: Toes_L
+    100076: Toes_R
+    100078: Upper_Arm_L
+    100080: Upper_Arm_R
+    100082: Upper_Leg_L
+    100084: Upper_Leg_R
     400000: Armature
     400002: Armor_BP
     400004: Armor_Legs
@@ -68,40 +71,54 @@ ModelImporter:
     400044: Lower_Leg_L
     400046: Lower_Leg_R
     400048: Neck
-    400050: Shirt
-    400052: shoe
-    400054: Shoulder_L
-    400056: Shoulder_R
-    400058: Spine
-    400060: Thumb01_L
-    400062: Thumb01_R
-    400064: Thumb02_L
-    400066: Thumb02_R
-    400068: Toes_L
-    400070: Toes_R
-    400072: Upper_Arm_L
-    400074: Upper_Arm_R
-    400076: Upper_Leg_L
-    400078: Upper_Leg_R
-    2100000: Material_001
-    2100002: Material_002
-    2100004: Armor
-    2100006: kneecap
-    2100008: underArmor
-    2100010: Material
-    2100012: Shoe
-    2100014: shirt
-    2100016: pants
-    2100018: body
-    4300000: Helmet_001
-    4300002: Armor_BP
-    4300004: Armor_Legs
-    4300006: hair
-    4300008: shoe
-    4300010: Shirt
-    4300012: Leggings
-    4300014: body
-    4300016: Helmet
+    400050: Plane
+    400052: Shield
+    400054: Shirt
+    400056: shoe
+    400058: Shoulder_L
+    400060: Shoulder_R
+    400062: Spine
+    400064: Sword
+    400066: Thumb01_L
+    400068: Thumb01_R
+    400070: Thumb02_L
+    400072: Thumb02_R
+    400074: Toes_L
+    400076: Toes_R
+    400078: Upper_Arm_L
+    400080: Upper_Arm_R
+    400082: Upper_Leg_L
+    400084: Upper_Leg_R
+    2100000: Armor
+    2100002: kneecap
+    2100004: Blade
+    2100006: Blade_Highlight
+    2100008: Material_001
+    2100010: Material_002
+    2100012: underArmor
+    2100014: Material
+    2100016: Shoe
+    2100018: shirt
+    2100020: pants
+    2100022: body
+    2300000: Plane
+    2300002: Shield
+    2300004: Sword
+    3300000: Plane
+    3300002: Shield
+    3300004: Sword
+    4300000: Shield
+    4300002: Plane
+    4300004: Sword
+    4300006: Helmet_001
+    4300008: Armor_BP
+    4300010: Armor_Legs
+    4300012: hair
+    4300014: shoe
+    4300016: Shirt
+    4300018: Leggings
+    4300020: body
+    4300022: Helmet
     7400000: Default Take
     7400002: Idle
     7400004: Run
@@ -125,6 +142,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Armor
     second: {fileID: 2100000, guid: 4d7ba3f230d0ff84db6b8965bff2888d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blade
+    second: {fileID: 2100000, guid: 66ba890d2f467014c828d2235bf5e0ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blade_Highlight
+    second: {fileID: 2100000, guid: fb0fdf430d6ae1e4bb7c873155b9b715, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -771,6 +798,16 @@ ModelImporter:
       position: {x: -0, y: 0, z: -0.0033006982}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+    - name: Shield
+      parentName: char_model(Clone)
+      position: {x: -0.30229092, y: 0.8762215, z: 0.089038156}
+      rotation: {x: -0.6217377, y: 0.1493386, z: 0.6936722, w: -0.33160084}
+      scale: {x: 0.1966805, y: 0.19668046, z: 0.1966805}
+    - name: Plane
+      parentName: Shield
+      position: {x: 0.0000002682209, y: -0.0000002682209, z: 0.44202426}
+      rotation: {x: 0.0000003567664, y: -0.00000032285155, z: 0.7071066, w: 0.70710695}
+      scale: {x: 1, y: 1, z: 0.99999994}
     - name: Shirt
       parentName: char_model(Clone)
       position: {x: -0, y: 0, z: -0.0033006982}
@@ -780,6 +817,11 @@ ModelImporter:
       parentName: char_model(Clone)
       position: {x: -0, y: 0, z: -0.0033006982}
       rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sword
+      parentName: char_model(Clone)
+      position: {x: 0.24412183, y: 0.8961094, z: 0.06669965}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5

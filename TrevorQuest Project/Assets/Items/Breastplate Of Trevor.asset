@@ -9,13 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e97e2004028067c45a02e0a0c5544104, type: 3}
-  m_Name: Breastplate of Trevor
+  m_Name: Breastplate Of Trevor
   m_EditorClassIdentifier: 
   name: Breastplate of Trevor
   icon: {fileID: 21300000, guid: c5fa2c85be00b784ba730b7a93615ee1, type: 3}
   isDefaultItem: 0
   equipSlot: 1
-  mesh: {fileID: 137784122104922290, guid: af0ec3c25dcfaa542a3893fe84dcbf32, type: 2}
+  mesh: {fileID: 137830055910571078, guid: 4ac8fc48e8875434f8c27854165d3158, type: 2}
   coveredMeshRegions: 01000000
   armorModifier: 5
   damageModifier: 0
