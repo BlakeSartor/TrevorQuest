@@ -18,4 +18,4 @@ MonoBehaviour:
   mesh: {fileID: 137830055910571078, guid: 4ac8fc48e8875434f8c27854165d3158, type: 2}
   coveredMeshRegions: 01000000
   armorModifier: 2
-  damageModifier: 0
+  damageModifier: 1
