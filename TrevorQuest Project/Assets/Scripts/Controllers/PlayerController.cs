@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour {
             {
                 // move player to mouse click
                 engine.MoveToPoint(hit.point);
-                Debug.Log("We hit" + hit.collider.name + " " + hit.point);
+                Debug.Log("We hit " + hit.collider.name + " " + hit.point);
                 // stop focusing objects
                 ClearTarget();
 

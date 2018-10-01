@@ -2857,7 +2857,21 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 199108044}
-  m_Text: Hello World
+  m_Text: 'Hello World...
+
+
+    Welcome To TrevorQuest
+
+
+    A/D - Turn Camera
+
+    Left Click - Move player to mouse location
+
+    Right Click - Interact/Attack
+
+    B - Backpack
+
+    U - Unequip All '
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
