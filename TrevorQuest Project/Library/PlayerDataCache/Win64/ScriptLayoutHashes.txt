@@ -90,6 +90,7 @@ e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 2d58ca16854b99daea8c45e9c0f367b7 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 98f0dfd2378729c082be8d0dd8ea0d71 Assembly-CSharp.dll:UnityEngine.PostProcessing.PostProcessingBehaviour
+4c429d700e69e297d3d2c353e2182eef Assembly-CSharp.dll:.PlayerAnimator
 66c0cd3ac322a062b33d77c017ab404a Assembly-CSharp.dll:.NpcController
 20dd230ee0c8184f6bbe179eeb1721e3 Assembly-CSharp.dll:.InventorySlot
 486cd95c82d8305219c352c06b776e1f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -179,7 +180,7 @@ aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 713f094d38dde97adcca89d1fad847c0 Assembly-CSharp.dll:UnityEngine.PostProcessing.PostProcessingProfile
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 9ad9b9c959db0a19fe73314d3da1895e Assembly-CSharp.dll:.Inventory
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.CharacterAnimator
+1fcae239a4ab5f75de66c6f4ced79511 Assembly-CSharp.dll:.CharacterAnimator
 e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 2d6e5deafebe766498ea808233355a4c Assembly-CSharp.dll:.NpcStats
 2f9af06a78208a67db480e9bfed4a076 Unity.TextMeshPro.dll:TMPro.TextMeshPro
