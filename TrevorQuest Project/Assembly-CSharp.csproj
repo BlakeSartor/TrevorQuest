@@ -122,6 +122,7 @@
     <Compile Include="Assets\Scripts\Items\Item.cs" />
     <Compile Include="Assets\Scripts\Items\ItemPickup.cs" />
     <Compile Include="Assets\Scripts\Npc.cs" />
+    <Compile Include="Assets\Scripts\PlayerAnimator.cs" />
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\Stats\CharStats.cs" />
     <Compile Include="Assets\Scripts\Stats\NpcStats.cs" />
