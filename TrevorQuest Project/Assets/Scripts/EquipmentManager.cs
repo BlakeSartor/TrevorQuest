@@ -75,7 +75,7 @@ public class EquipmentManager : MonoBehaviour {
         {
             if (currentMeshes[slotIndex] != null)
             {
-                Debug.Log("Destroying Mesh");
+                //Debug.Log("Destroying Mesh");
                 Destroy(currentMeshes[slotIndex].gameObject);
             }
 
