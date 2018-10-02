@@ -3,6 +3,7 @@
 public class Interactable : MonoBehaviour {
     
     public float radius = 3f;
+    public float offset = 1f;
     public Transform interactionTransform;
 
     bool isTarget = false;
@@ -51,7 +52,8 @@ public class Interactable : MonoBehaviour {
         if (interactionTransform == null)
             interactionTransform = transform;
         Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, radius);
+        Vector3 offsetPos = new Vector3(transform.position.x, transform.position.y + offset, transform.position.z);
+        Gizmos.DrawWireSphere(offsetPos, radius);
     }
 
 }
