@@ -15,9 +15,10 @@ public class EquipmentManager : MonoBehaviour {
 
     #endregion
 
+
     public Equipment[] defaultItems;
     public SkinnedMeshRenderer targetMesh;
-    Equipment[] currentEquipment;
+    public Equipment[] currentEquipment;
     SkinnedMeshRenderer[] currentMeshes;
 
     public delegate void OnEquipmentChanged(Equipment newItem, Equipment oldItem);

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Hair
   m_EditorClassIdentifier: 
   name: Hair
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 04589a659e25cd44498f4b3fe6261624, type: 3}
   isDefaultItem: 1
   equipSlot: 0
   mesh: {fileID: 137626014174124184, guid: 81c51b4cd3078534b9a72f0724c00965, type: 2}
